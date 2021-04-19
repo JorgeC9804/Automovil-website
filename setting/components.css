@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+}
+
+/*========================SECTION 1==============================*/
+.section-1 {
+    height: 100vh;
+    background-color: white;
+    /*border: rgb(252, 50, 50) 1px solid;/**/
+    box-sizing: border-box;
+}
+.show-cars {
+    background-color: rgb(29, 145, 129);
+    width: 80%;
+    height: 1720px;
+    position: relative;
+    top: 200px;
+}
+.label {
+    /*border: 1px solid black;/**/
+    width: 500px;
+    height: 530px;
+    margin: 20px;
+    box-shadow: 10px 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(29, 145, 129);
+}
+.addCar {
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.addCar button {
+    background: rgb(240, 64, 11);
+    font-size: 18px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 0;
+}
+.add-information-car {
+    position: fixed;
+    right: 50px;
+    top: 200px;
+    background: rgba(255, 254, 254, 0.507);
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.move-input-1 {
+    position: relative;
+    left: 15.5px;
+    width: 250px;
+}
+.move-input-2 {
+    width: 250px;
+}
+.move-input-3 {
+    position: relative;
+    left: 20px;
+    width: 250px;
+}
+.move-input-4 {
+    position: relative;
+    left: 29px;
+    width: 250px;
+}
+.move-input-5 {
+    position: relative;
+    left: 15.5px;
+    width: 250px;
+}
+.move-input-6 {
+    position: relative;
+    left: 8.5px;
+    width: 250px;
+}
+.remove {
+    display: none;
+}
+.remove- {
+    display: none;
+}
+form button {
+    position: relative;
+    background: rgb(240, 24, 24);
+    padding: 10px 30px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    top: 40px;
+}
+.update-information {
+    position: relative;
+    left: 50px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 130px;
+    padding: 10px;
+}
+.btn-update {
+    position: relative;
+    background: rgb(240, 24, 24);
+    padding: 10px 30px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    top: 20px;
+    left: 50%;
+}
+.inline- {
+    display: inline;
+}
+/*========================JAVA SCRIPT==============================*/
+.information {
+    position: relative;
+    top: 20px;
+}
+.car {
+    width: 500px;
+    border-radius: 11px;
+}
+.information-car {
+    /*border: 1px solid;/**/
+    padding-left: 20px;
+}
+.btn-edition {
+    position: relative;
+    top: 20px;
+    /*border: 1px solid;/**/
+    padding: 5px 5px 5px;
+}
+.btn-edition button {
+    padding: 10px 22px 10px;
+    border: 0;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn-1-color { 
+    background: rgb(243, 212, 39);
+}
+.btn-2-color { 
+    background: rgb(7, 66, 153);
+}
+.move-input-1- {
+    position: relative;
+    left: 15.5px;
+    width: 150px;
+}
+.move-input-2- {
+    width: 150px;
+}
+.move-input-3- {
+    position: relative;
+    left: 20px;
+    width: 150px;
+}
+.move-input-4- {
+    position: relative;
+    left: 29px;
+    width: 150px;
+}
+.move-input-5- {
+    position: relative;
+    left: 15.5px;
+    width: 150px;
+}
+.move-input-6- {
+    position: relative;
+    left: 8.5px;
+    width: 150px;
+}
+/*========================SECTION MENU==============================*/
+.menu {
+    position: absolute;
+    background: coral;
+    width: 100%;
+    height: 100px;
+}
+.inline {
+    display: inline;
+    margin: 20px;
+}
+
+/*========================LOGO==============================*/
+.logo {
+    position: absolute;
+    left: 100px;
+    background-color: rgb(148, 52, 28);
+    height: 100px;
+    width: 200px;
+}
+
+/*settings*/
+.center-height {
+    display: flex;
+    align-items: center;
+}
+.center-width {
+    display: flex;
+    justify-content: center;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}

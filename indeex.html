@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./setting/components.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section-1 center-width">
+        <div class="show-cars">
+            <div id="carsContainer" class="wrap center-width"></div>
+        </div>
+        <section class="menu center-width center-height">
+            <div>
+                <div class="inline">Autos Nuevos</div>
+                <div class="inline">Semi Nuevos</div>
+                <div class="inline">Promociones</div>
+                <div class="inline">Comprar un Nissan</div>
+            </div>
+            <div class="logo"></div>
+        </section>
+        <section class="addCar center-height center-width">
+            <button onclick="Toggle()">Add Car</button>
+        </section>
+        <section class="add-information-car remove" id="information-car">
+            <divc class="information-add">
+                <form id="car-form" action="/" onsubmit="event.preventDefault()">
+                    <div>
+                        <label for="marca">Marca</label>
+                        <input type="text" class="move-input-1" id="marca" placeholder="Enter Marca" required>
+                    </div>
+                    <div>
+                        <label for="modelo">Modelos</label>
+                        <input type="text" class="move-input-2" id="modelo" placeholder="Enter Modelo" required>
+                    </div>
+                    <div>
+                        <label for="color">Color</label>
+                        <input type="text" class="move-input-3" id="color" placeholder="Enter Color" required>
+                    </div>
+                    <div>
+                        <label for="año">Año</label>
+                        <input type="text" class="move-input-4" id="año" placeholder="Enter Año" required>
+                    </div>
+                    <div>
+                        <label for="precio">Precio</label>
+                        <input type="text" class="move-input-5" id="precio" placeholder="Enter Precio" required>
+                    </div>
+                    <div>
+                        <label for="img">Imagen</label>
+                        <input type="text" class="move-input-6" id="img" placeholder="Insert Url" required>
+                    </div>
+                    <button onclick="AddCar()">Add</button>
+                    <div id="edit-car" class="inline-"></div>
+                </form>
+            </div>
+        </section>
+    </section>
+</body>
+<script src="./scripts/setting.js"></script>
+</html>
